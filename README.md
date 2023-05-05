@@ -1,1 +1,1 @@
-# Cronometro
+# Cronômetro
