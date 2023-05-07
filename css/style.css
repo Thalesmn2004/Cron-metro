@@ -4,61 +4,66 @@
     font-family: 'Bruno Ace SC', cursive;
 }
 
-.container{
+.container {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 2rem;
     padding-top: 3rem;
-    background-color: #f1f1f1;
+    background-color: #fff;
     height: 100vh;
 }
 .container h1 {
-    color: #555; ;
+    color: #3a0403; ;
 }
 .timer{
     display: flex;
     font-size: 55px;
     font-weight: bold;
-    color: #333;
+    color: #b52c2c;
 }
 .time{
     display:flex;
     align-items: center;
     justify-content: center;
     margin-right: 10px;
-    color:#172953;
+    color:#701111;
     min-width: 90px;
 }
 .separator{
     padding: 0 10px;
-    color: #526763;
+    color: #5e2d2d;
 }
 #miliseconds{
     font-size: 30px;
-    color: #525763
+    color: #160019
 }
 .buttons{
     display: flex;
     gap: 1rem;
 }
-.bnt{
+.btn{
     padding: 10px 20px;
     font-size: 18px;
     font-weight: bold;
     border-radius: 30px;
     cursor: pointer;
-    border: 1px solid #ccc;
+    border: 1px solid #000000;
     transition: all 0.2s ease-in-out;
 }
-.bnt:hover{
+.btn:hover {
     transform: scale(1.1);
 }
-#starBtn{
-    background-color: #175cff;
-    color: #fff;
+#startBtn {
+    background-color: #ff173a;
+    color: #FFF;
 }
 
-#pauseBtn, #resumeBtn{
+#pauseBtn, 
+#resumeBtn{
     display: none;
+}
+.img{
+    width: 300px;
+    align-items: center;
 }
