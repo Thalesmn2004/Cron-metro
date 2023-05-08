@@ -66,4 +66,18 @@
 .img{
     width: 300px;
     align-items: center;
+    flex-wrap: wrap;
+}
+.title{
+    line-break:anywhere;
+}
+@media (max-width:400px) {
+    .timer{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .buttons{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 }
